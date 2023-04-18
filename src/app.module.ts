@@ -7,6 +7,8 @@ import { DMMFClass } from '@prisma/client/runtime';
 import { branding, auth, sessionOptions } from './config/adminjs';
 import { PrismaService } from './prisma/prisma.service';
 import { PrismaModule } from './prisma/prisma.module';
+import { AuthModule } from './app/auth/auth.module';
+import { UsersModule } from './app/users/users.module';
 
 AdminJs.registerAdapter({ Database, Resource });
 
@@ -41,6 +43,8 @@ AdminJs.registerAdapter({ Database, Resource });
         };
       },
     }),
+    AuthModule,
+    UsersModule,
   ],
   controllers: [],
   providers: [],
