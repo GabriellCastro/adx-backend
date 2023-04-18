@@ -11,8 +11,17 @@ datasource db {
 }
 
 model Users {
-  id    Int    @id @default(autoincrement())
-  email String @unique
-  name  String
-  role  String
+  id       Int     @id @default(autoincrement())
+  email    String  @unique
+  name     String
+  password String
+  role     String?
+}
+
+model Courses {
+  id        Int      @id @default(autoincrement())
+  name      String
+  synopsis  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
