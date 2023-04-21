@@ -23,7 +23,7 @@ export const sessionOptions = {
 };
 
 export const branding = {
-  companyName: 'OneBitFlix',
+  companyName: 'Adx full commerce',
   logo: '/adxfull.png',
   theme: {
     colors: {

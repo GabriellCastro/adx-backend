@@ -14,6 +14,9 @@ CREATE TABLE "Courses" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "synopsis" TEXT NOT NULL,
+    "price" INTEGER NOT NULL,
+    "video_url" TEXT,
+    "image_url" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 

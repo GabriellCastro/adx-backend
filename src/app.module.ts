@@ -9,6 +9,7 @@ import { PrismaService } from './prisma/prisma.service';
 import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './app/auth/auth.module';
 import { UsersModule } from './app/users/users.module';
+import { CoursesModule } from './app/courses/courses.module';
 
 AdminJs.registerAdapter({ Database, Resource });
 
@@ -45,6 +46,7 @@ AdminJs.registerAdapter({ Database, Resource });
     }),
     AuthModule,
     UsersModule,
+    CoursesModule,
   ],
   controllers: [],
   providers: [],
