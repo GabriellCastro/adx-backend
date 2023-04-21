@@ -37,13 +37,13 @@ $ cd adx-backend
 # Run yarn to install dependencies
 $ yarn
 
-# At the root of the project (mz-backend)
+# At the root of the project (adx-backend)
 # Change the name from .env.example to .env
 
-# Run docker in the root of the project (mz-backend)
+# Run docker in the root of the project (adx-backend)
 $ sudo docker compose up -d
 
-# Run prism migrate on the root of the project (mz-backend)
+# Run prism migrate on the root of the project (ax-backend)
 $ yarn prisma migrate dev
 
 # To start the application
