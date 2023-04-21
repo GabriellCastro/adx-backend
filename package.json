@@ -1,13 +1,10 @@
 {
   "name": "adx-backend",
   "version": "0.0.1",
-  "description": "adx ecommerce backend",
-  "author": "Gabriel C.",
+  "description": "",
+  "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "prisma": {
-    "seed": "ts-node src/prisma/seed.ts"
-  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -32,18 +29,6 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^9.0.3",
     "@nestjs/platform-express": "^9.0.0",
-    "@prisma/client": "4.12.0",
-    "@tiptap/pm": "^2.0.3",
-    "@types/bcrypt": "^5.0.0",
-    "@types/passport-jwt": "^3.0.8",
-    "adminjs": "^6.8.7",
-    "bcrypt": "^5.1.0",
-    "class-validator": "^0.14.0",
-    "express-formidable": "^1.2.0",
-    "express-session": "^1.17.3",
-    "passport": "^0.6.0",
-    "passport-jwt": "^4.0.1",
-    "prisma": "^4.12.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
