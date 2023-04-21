@@ -18,7 +18,7 @@ export const auth = {
 
 export const sessionOptions = {
   resave: true,
-  // saveUninitialized: true,
+  saveUninitialized: true,
   secret: 'secret',
 };
 
